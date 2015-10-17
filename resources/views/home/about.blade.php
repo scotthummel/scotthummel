@@ -4,9 +4,9 @@
 
 @section('content')
 
-    <h1>About</h1>
+    <h2>About</h2>
 
-    <h2>About SH Interactive</h2>
+    <h1>About SH Interactive</h1>
 
     <p>The company, which has operated under several different names since its inception in 2006, is the endeavor of web developer Scott Hummel.</p>
 

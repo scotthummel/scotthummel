@@ -12,10 +12,10 @@
 
 @yield('content')
 
-    </div>
+        <div class="black-bar"></div>
+        <div class="blue-bar"></div>
 
-    <div class="black-bar"></div>
-    <div class="blue-bar"></div>
+    </div>
 
 </div>
 

@@ -13,7 +13,7 @@
                     <!-- SPEAR LOGO -->
 
 
-                    <a href="/" class="brand"><img class="hidden-xs" src="/images/itc-logo.png" alt="SH Interactive" /></a>
+                    <a href="/" class="brand"><img class="nav-logo" src="/images/sh_interactive_logo.png" alt="SH Interactive" /></a>
 
                     <!-- NAVIGATION -->
 
@@ -53,6 +53,16 @@
                         </div>
 
                     </nav>
+
+                    <div class="pull-right hidden-xs">
+
+                        <a href="http://www.linkedin.com/in/scottehummel"><img class="pull-right social-media" src="/images/linkedin.gif" alt="LinkedIn" /></a>
+
+                        <a href="http://www.twitter.com/sh_interactive"><img class="pull-right social-media" src="/images/twitter.png" alt="Twitter" /></a>
+                        
+                        <a href="http://www.facebook.com/sh.interactive"><img class="pull-right social-media" src="/images/facebook.png" alt="Facebook" /></a>
+
+                    </div>
 
                 </div>
 

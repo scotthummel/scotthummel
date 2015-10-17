@@ -5,8 +5,8 @@
 @section('content')
 
     <div class="text-center" style="margin: 0;padding: 0;">
-        <img class="img-responsive" src="{{ url('images/cover.jpg') }}" alt="SH Interactive" />
-        <a class="btn btn-primary get-started btn-lg" href="#">Get Started</a>
+        <img class="img-responsive" src="{{ url('images/cover.jpg') }}" alt="SH Interactive at work" />
+        <!--<a class="btn btn-primary get-started btn-lg" href="#">Get Started</a>-->
     </div>
 
     <div class="aspects">

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Home;
 
 use App\Scotthummel\Mailers\ContactMailer;
 use App\Scotthummel\Notifications\Flash;
+use App\Website;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -23,7 +24,20 @@ class HomeController extends Controller
 
     public function portfolio()
     {
-        return view('home.portfolio');
+        $sites = Website::all();
+
+        return view('home.portfolio', [
+            'sites' => $sites
+        ]);
+    }
+
+    public function website($slug)
+    {
+        $site = Website::where('slug', $slug)->firstOrFail();
+
+        return view('home.website', [
+            'site' => $site
+        ]);
     }
 
     public function resume()

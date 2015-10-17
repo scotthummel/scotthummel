@@ -28,6 +28,7 @@ html, body {
 .get-started {
     position: absolute;
     top: 300px;
+    margin: 0 auto;
 }
 
 .aspects {
@@ -36,6 +37,10 @@ html, body {
     height: auto;
     padding: 30px 40px;
     margin: 0;
+}
+
+.nav-logo {
+    width: 80px;
 }
 
 .home-icon {
@@ -137,6 +142,10 @@ p {
     margin-bottom: 0;
 }
 
+.screenshot {
+    margin-bottom: 20px;
+}
+
 /*h1, h6 {*/
 /*font: 18px 'DroidSansBold', Arial, sans-serif;*/
 /*font-weight:bold;*/
@@ -154,11 +163,11 @@ p {
 /*}*/
 
 h1 {
-    font-size: 28px;
-    color: #FFF;
-    font-family: 'Roboto Slab';
-    background-color: #82B3D3;
-    padding: 10px 20px;
+    font: 24px 'Roboto Slab', Arial, sans-serif;
+    font-weight:bold;
+    margin-bottom: 7px;
+    margin-top: 30px;
+    color: #20345a;
 }
 
 h2:first-child {
@@ -180,11 +189,12 @@ h2#title {
 }
 
 h2 {
-    font: 24px 'Roboto Slab', Arial, sans-serif;
-    font-weight:bold;
-    margin-bottom: 7px;
-    margin-top: 30px;
-    color: #20345a;
+    font-size: 20px;
+    color: #FFF;
+    font-family: 'Roboto Slab';
+    background-color: #82B3D3;
+    padding: 7px 20px;
+    margin-bottom: 20px;
 }
 
 h2#archive {
@@ -253,6 +263,12 @@ ul.experience p {
 ul.experience ul {
     margin-left: -20px;
     list-style-type: disc;
+}
+
+.social-media {
+    width: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 a.read-more {

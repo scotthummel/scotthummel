@@ -4,23 +4,36 @@
 
 @section('content')
 
-    <h1>Contact</h1>
+    <h2>Contact</h2>
 
-    <h2>Contact Us</h2>
+    <div class="row">
 
-    <p>We'd like to hear from you.  Your feedback is important to us.  Feel free to drop us a line below, with whatever questions you may have.  We'll get back to you in 2-3 business days, if not sooner.</p>
+        <div class="col-sm-4">
 
-    {!! Form::open(['url' => 'contact', 'method' => 'POST']) !!}
+        </div>
 
-        {!! Form::textField('name', 'Name:', Input::old('name')) !!}
+        <div class="col-sm-8">
 
-        {!! Form::textField('email', 'Email Address:', Input::old('email')) !!}
+            <h1>Contact Us</h1>
 
-        {!! Form::textField('phone', 'Phone:', Input::old('phone')) !!}
+            <p>We'd like to hear from you.  Your feedback is important to us.  Feel free to drop us a line below, with whatever questions you may have.  We'll get back to you in 2-3 business days, if not sooner.</p>
 
-        {!! Form::textBox('comments', 'Comments/Question:', Input::old('comments')) !!}
+            {!! Form::open(['url' => 'contact', 'method' => 'POST']) !!}
 
-        {!! Form::submitButton('Send Email', 'primary') !!}
+            {!! Form::textField('name', 'Name:', Input::old('name')) !!}
 
-    {!! Form::close() !!}
+            {!! Form::textField('email', 'Email Address:', Input::old('email')) !!}
+
+            {!! Form::textField('phone', 'Phone:', Input::old('phone')) !!}
+
+            {!! Form::textBox('comments', 'Comments/Question:', Input::old('comments')) !!}
+
+            {!! Form::submitButton('Send Email', 'primary') !!}
+
+            {!! Form::close() !!}
+
+        </div>
+
+
+    </div>
 @stop

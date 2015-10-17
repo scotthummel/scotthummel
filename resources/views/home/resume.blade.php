@@ -4,9 +4,9 @@
 
 @section('content')
 
-    <h1>R&eacute;sum&eacute;</h1>
+    <h2>R&eacute;sum&eacute;</h2>
 
-    <h2>Scott Hummel • <a href="mailto:scott@scotthummel.net">scott@scotthummel.net</a> • 602.330.8090</h2><br />
+    <h1>Scott Hummel • <a href="mailto:scott@scotthummel.net">scott@scotthummel.net</a> • 602.330.8090</h1><br />
 
     <dl class="dl-horizontal">
         <dt>Objective:</dt>

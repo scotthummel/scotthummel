@@ -4,11 +4,15 @@
 
 @section('content')
 
-    <h1>Testimonials</h1>
+    <h2>Testimonials</h2>
 
     <div class="row">
 
-        <div class="col-sm-5"></div>
+        <div class="col-sm-5">
+
+            <img class="img-responsive img-thumbnail screenshot" src="/images/screenshots/lambda.png" alt="Lambda Phoenix Center website" />
+
+        </div>
 
         <div class="col-sm-7">
 
@@ -24,7 +28,11 @@
 
     <div class="row">
 
-        <div class="col-sm-5"></div>
+        <div class="col-sm-5">
+
+            <img class="img-responsive img-thumbnail screenshot" src="/images/screenshots/springbreak.png" alt="Spring Break website" />
+
+        </div>
 
         <div class="col-sm-7">
 
@@ -40,7 +48,11 @@
 
     <div class="row">
 
-        <div class="col-sm-5"></div>
+        <div class="col-sm-5">
+
+            <img class="img-responsive img-thumbnail screenshot" src="/images/screenshots/caredirections.png" alt="Care Directions website" />
+
+        </div>
 
         <div class="col-sm-7">
 
@@ -56,7 +68,11 @@
 
     <div class="row">
 
-        <div class="col-sm-5"></div>
+        <div class="col-sm-5">
+
+            <img class="img-responsive img-thumbnail screenshot" src="/images/screenshots/restoration.png" alt="Restoration Bodywork website" />
+
+        </div>
 
         <div class="col-sm-7">
 
@@ -72,7 +88,11 @@
 
     <div class="row">
 
-        <div class="col-sm-5"></div>
+        <div class="col-sm-5">
+
+            <img class="img-responsive img-thumbnail screenshot" src="/images/screenshots/itheaatre.png" alt="Restoration Bodywork website" />
+
+        </div>
 
         <div class="col-sm-7">
 
