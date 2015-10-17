@@ -17,5 +17,6 @@ Route::get('portfolio', 'Home\HomeController@portfolio');
 Route::get('portfolio/{slug}', 'Home\HomeController@website');
 Route::get('resume', 'Home\HomeController@resume');
 Route::get('testimonials', 'Home\HomeController@testimonials');
+Route::get('news', 'Home\HomeController@news');
 Route::get('contact', 'Home\HomeController@getContact');
 Route::post('contact', 'Home\HomeController@postContact');

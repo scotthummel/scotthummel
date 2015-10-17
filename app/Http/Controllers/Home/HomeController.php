@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers\Home;
 
+use App\Models\Article;
 use App\Scotthummel\Mailers\ContactMailer;
 use App\Scotthummel\Notifications\Flash;
-use App\Website;
+use App\Models\Website;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -48,6 +49,15 @@ class HomeController extends Controller
     public function testimonials()
     {
         return view('home.testimonials');
+    }
+
+    public function news()
+    {
+        $articles = Article::where('active', 1)->latest()->get();
+
+        return view('home.news', [
+            'articles' => $articles
+        ]);
     }
 
     public function getContact()
