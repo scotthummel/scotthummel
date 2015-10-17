@@ -6,4 +6,6 @@
 
 @yield('content')
 
+@include('partials.footer-links')
+
 @include('partials.footer')

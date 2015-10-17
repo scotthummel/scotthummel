@@ -60,12 +60,6 @@ blockquote {
     border-color: #0099bd;
 }
 
-#logo {
-    width: 185px;
-    height: 193px;
-    margin: 0 0 0 0;
-    background: url('../images/scotthummel_logo.png');
-}
 
 #footer {
     width: 960px;
@@ -178,21 +172,11 @@ h2.company {
     margin: 0 0 10px -20px;
 }
 
-h2#title {
-    color: #FFF;
-    margin: 20px 0 0 0;
-    background:url('../images/page_header.jpg') repeat-x;
-    font: 22px  'Salsa', cursive;
-    padding:12px 0 6px 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
 h2 {
     font-size: 20px;
     color: #FFF;
     font-family: 'Roboto Slab';
-    background-color: #82B3D3;
+    background-color: #286090;
     padding: 7px 20px;
     margin-bottom: 20px;
 }
@@ -214,7 +198,6 @@ h3 {
 h4 {
     font: 16px 'DroidSansRegular', Arial, sans-serif;
     margin: -12px 0 20px -20px;
-    margin-bottom: 7px;
     color: #20345a;
     width: 734px;
     font-style: italic;
@@ -249,6 +232,20 @@ dl dd ul.experience li h6 {
     font-size: 15px;
     color: #20345a;
     margin-top: 0;
+}
+
+.footer-links {
+    margin-top: 20px;
+    color: #286090;
+}
+
+.footer-links a {
+    text-decoration: underline;
+    color: #286090;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
 }
 
 ul.experience {

@@ -12,10 +12,12 @@
 
 @yield('content')
 
-        <div class="black-bar"></div>
-        <div class="blue-bar"></div>
-
     </div>
+
+    <div class="black-bar"></div>
+    <div class="blue-bar"></div>
+
+    @include('partials.footer-links')
 
 </div>
 
